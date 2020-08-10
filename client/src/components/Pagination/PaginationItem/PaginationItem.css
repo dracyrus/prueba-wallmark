@@ -1,0 +1,66 @@
+.ais-Pagination-item{
+    float: left;
+}
+
+.ais-Pagination-link {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    border-color: transparent;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 29px;
+    border: 1px solid transparent;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+}
+
+.ais-Pagination-link:hover, .ais-Pagination-link:focus {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-width: 1px;
+    border-color: #0071ce;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #0071ce;
+    text-align: center;
+    line-height: 29px;
+}
+
+.shop-wrapper .ais-Pagination-item--selected .ais-Pagination-link {
+    padding: 0;
+    background-color: #0071ce;
+    border-color: #0071ce;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.ais-Pagination-item--selected .ais-Pagination-link:hover,
+.ais-Pagination-item--selected .ais-Pagination-link:focus {
+    color:#fff
+}
+
+.ais-Pagination-item + .ais-Pagination-item {
+    margin-left: .6rem;
+}
+
+.ais-Pagination-item--previousPage > a {
+    color: #0071ce;
+    font-size: 26px !important;
+    line-height: 22px;
+    margin-right: .4rem;
+}
+
+.pagination-disabled-arrows > a {
+    color: #ddd !important;
+    cursor: not-allowed !important;
+}

@@ -1,0 +1,2 @@
+#! /bin/bash
+mongoimport --host mongo --port 27017 --username productListUser --password productListPassword --authenticationDatabase admin --db promotions --collection products --type json --file /mongo-seed/01-products.json

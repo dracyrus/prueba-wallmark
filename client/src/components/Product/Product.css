@@ -1,0 +1,47 @@
+.shop-wrapper .ais-Hits-list .ais-Hits-item {
+    border: none;
+    box-shadow: none;
+    margin: 0 0 10px;
+    padding: 3px;
+    display: grid;
+}
+
+.shop-wrapper .ais-Hits-item {
+    max-width: 25%;
+}
+
+.overlay-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 220px;
+    width: 100%;
+}
+
+.product-block {
+    height: 440px;
+    border-radius: 16px !important;
+}
+
+.rct-block {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
+    border: none;
+    transition: all .4s ease-in-out 0s;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.product-info {
+    padding: .5rem;
+}
+
+.container-icon {
+    position: absolute;
+    bottom: 56px;
+}
+
+.home-delivery-text, .site-to-store-text  {
+    font-size: 14px;
+}

@@ -1,0 +1,22 @@
+type Product {
+  _id: ID!
+  brand: String!
+  description: String!
+  id: Int!
+  image: String!
+  price: Int!
+}
+
+type ProductSearch {
+  products: [Product]
+  disccountAmount: Int
+  numberProducts: Int
+}
+
+type Query {
+  products: Product
+}
+
+type Mutation {
+  findBySentence(sentence: String! page: Int): ProductSearch
+}

@@ -1,0 +1,26 @@
+.pagination-container {
+    background-color: #fff;
+    margin-top: -10px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.pagination-wmt {
+    padding-top: 15px;
+}
+
+.ais-Pagination-list {
+    list-style: none;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}

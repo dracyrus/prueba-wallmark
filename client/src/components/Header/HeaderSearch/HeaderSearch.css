@@ -1,0 +1,85 @@
+.search-container{
+    width: 100%;
+    margin: 0 3%;
+}
+
+.search-box-container-header{
+    padding-top: 10px;
+}
+
+.ais-SearchBox-form {
+    display: block;
+    position: relative;
+}
+
+.search-box-container-header input {
+    border-radius: 26px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.ais-SearchBox-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: .3rem 2.2rem;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #c4c8d8;
+    border-radius: 5px;
+}
+
+.ais-SearchBox-submit {
+    left: .6rem;
+}
+
+.search-input-icons {
+    position: absolute;
+    top: 17px;
+}
+
+.search-input-icons {
+    position: absolute;
+    top: 17px;
+}
+
+.ais-SearchBox-submit {
+    left: .6rem;
+}
+
+.ais-SearchBox-submit, .ais-SearchBox-reset, .ais-SearchBox-loadingIndicator {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: .3rem;
+    transform: translateY(-50%);
+}
+
+.ais-ClearRefinements-button, .ais-CurrentRefinements-delete, .ais-CurrentRefinements-reset, .ais-GeoSearch-redo, .ais-GeoSearch-reset, .ais-HierarchicalMenu-showMore, .ais-InfiniteHits-loadMore, .ais-InfiniteResults-loadMore, .ais-Menu-showMore, .ais-RangeInput-submit, .ais-RefinementList-showMore, .ais-SearchBox-submit, .ais-SearchBox-reset {
+    padding: 0;
+    overflow: visible;
+    font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    line-height: normal;
+    color: inherit;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ais-SearchBox-submitIcon {
+    width: 14px;
+    height: 14px;
+}
+

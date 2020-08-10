@@ -1,0 +1,23 @@
+.walmart-sales-price {
+    font-size: 18px;
+    color: #565656;
+    font-weight: 700;
+}
+
+.walmart-discount-percentage-card {
+    width: 35px;
+    border-radius: 16px;
+    background-color: #de1c24;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.walmart-reference-price {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #6d6e71;
+}

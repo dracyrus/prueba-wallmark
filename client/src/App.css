@@ -1,0 +1,118 @@
+body {
+  font-family: heebo,sans-serif;
+  font-weight: 400;
+  color: #464d69;
+}
+
+a{
+  transition: all .5s ease 0s;
+  display: inline-block;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+a:hover, a:focus, a.active {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+}
+
+[class^="ais-"] {
+  font-size: 1rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ais-Breadcrumb, .ais-ClearRefinements, .ais-CurrentRefinements, .ais-GeoSearch, .ais-HierarchicalMenu, .ais-Hits, .ais-Results, .ais-HitsPerPage, .ais-ResultsPerPage, .ais-InfiniteHits, .ais-InfiniteResults, .ais-Menu, .ais-MenuSelect, .ais-NumericMenu, .ais-NumericSelector, .ais-Pagination, .ais-Panel, .ais-PoweredBy, .ais-RangeInput, .ais-RangeSlider, .ais-RatingMenu, .ais-RefinementList, .ais-SearchBox, .ais-SortBy, .ais-Stats, .ais-ToggleRefinement {
+  color: #3a4570;
+}
+
+select, button, textarea, input {
+  vertical-align: baseline;
+}
+
+button, input {
+  overflow: visible;
+}
+
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+[type="button"], [type="reset"], [type="submit"], button {
+  -webkit-appearance: button;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+[class*="col-"] {
+  display: block;
+}
+[class*="col-"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
+}
+
+.pull-right {
+  float: right;
+}
+
+.mb-60, .my-60 {
+  margin-bottom: 3.75rem !important;
+}
+
+.col-padding-12 {
+  padding-right: 10px;
+  padding-left: 12px;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.vertical-align {
+  vertical-align: middle;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}

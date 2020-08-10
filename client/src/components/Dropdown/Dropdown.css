@@ -1,0 +1,20 @@
+
+.dropdown {
+    margin-left: -10px;
+    margin-right: -10px;
+    position: unset;
+}
+
+.category-order-dropdown {
+    float: right;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 8px !important;
+    box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
+    cursor: pointer;
+    max-width: 264px;
+    width: 264px;
+    margin-right: 21px;
+    margin-bottom: 10px;
+}

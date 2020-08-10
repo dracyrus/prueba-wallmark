@@ -1,0 +1,38 @@
+version: '3'
+services:
+  frontend:
+    container_name: frontend
+    build: ./client
+    ports:
+      - 80:80
+    depends_on:
+      - backend
+  backend:
+    container_name: backend
+    build: ./api
+    ports:
+      - 9000:9000
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:3.4.2
+    container_name: mongo
+    volumes:
+      - ./data:/data/mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=productListUser
+      - MONGO_INITDB_ROOT_PASSWORD=productListPassword
+      - MONGO_INITDB_DATABASE=promotions
+  db_seed:
+    container_name: db-seed
+    image: mongo:3.4.2
+    links:
+      - mongo
+    depends_on:
+      - mongo
+    volumes:
+      - ./mongo-seed:/mongo-seed
+    command:
+      /mongo-seed/import.sh
